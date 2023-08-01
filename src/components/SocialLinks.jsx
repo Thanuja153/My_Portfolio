@@ -44,9 +44,10 @@ const SocialLinks = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/ThanujaPSResume.pdf",
-      style: "rounded-br-md",
-      download: true,
+      // href: "/ThanujaPSResume.pdf",
+      href: "https://drive.google.com/file/d/1lu0hyzLgsm5Xsr7LBfS_AndvKvBKs-2B/view",
+      // style: "rounded-br-md",
+      // download: true,
     },
   ];
   return (
@@ -63,7 +64,7 @@ const SocialLinks = () => {
             <a
               href={href}
               className="flex justify-between items-center w-full text-white"
-              download={download}
+              // download={download}
               target="_blank"
               rel="noreferrer"
             >
