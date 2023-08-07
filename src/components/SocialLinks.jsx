@@ -45,7 +45,7 @@ const SocialLinks = () => {
         </>
       ),
       // href: "/ThanujaPSResume.pdf",
-      href: "https://drive.google.com/file/d/1lu0hyzLgsm5Xsr7LBfS_AndvKvBKs-2B/view",
+      href: "https://drive.google.com/file/d/1imrsVTx1o-n9ED010MjqcOfi6_mev54p/view",
       // style: "rounded-br-md",
       // download: true,
     },
