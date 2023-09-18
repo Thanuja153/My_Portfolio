@@ -2,9 +2,9 @@ import React from "react";
 
 import Omnifood from "../assets/portfolio/Omnifood.png";
 import MyShop from "../assets/portfolio/My_Shop.png";
-import tshirt from "../assets/portfolio/tshirt.png";
+import flixx from "../assets/portfolio/flixx.png";
 import CRUD from "../assets/portfolio/CRUD.png";
-import webstore from "../assets/portfolio/webstore.png";
+import tracalorie from "../assets/portfolio/tracalorie.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -16,15 +16,15 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: tshirt,
-      href: "https://github.com/Thanuja153/MERN_eCommerce",
-      href1: "https://github.com/Thanuja153/MERN_eCommerce",
+      src: flixx,
+      href: "https://flixx-moviestreamingapp.netlify.app/",
+      href1: "https://github.com/Thanuja153/Flixx-app",
     },
     {
       id: 3,
-      src: webstore,
-      href: "https://github.com/Thanuja153/WebStore",
-      href1: "https://github.com/Thanuja153/WebStore",
+      src: tracalorie,
+      href: "https://tracalorieapp1.netlify.app/",
+      href1: "https://github.com/Thanuja153/Tracalorie",
     },
     {
       id: 4,
@@ -38,10 +38,6 @@ const Portfolio = () => {
       href: "https://omnifood-thanuja.netlify.app/",
       href1: "https://github.com/Thanuja153/Omnifood",
     },
-    // {
-    //   id: 6,
-    //   src: reactWeather,
-    // },
   ];
   return (
     <div
